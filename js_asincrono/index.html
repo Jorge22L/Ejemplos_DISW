@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de JS asíncrono</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Ejemplo de JS asíncrono utilizando PokeAPI</h1>
+    <div id="pokemon-name-input">
+        <label for="pokemon">Introduce el nombre de un pokemon:</label>
+        <input type="text" id="pokemon" name="pokemon">
+    </div>
+    <button onclick="fetchPokemon()">Obtener pokemon</button>
+    <table id="data">
+        <!-- En esta sección se cargarán los datos de la API -->
+    </table>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
